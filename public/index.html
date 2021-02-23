@@ -6,6 +6,7 @@
     <title>Jason Reeder</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/8.2.9/firebase-app.js"></script>
@@ -23,10 +24,36 @@
       #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
       #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px; font-family: 'Limelight', cursive }
       #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; font-family: 'Josefin Slab', serif; }
-      #message a { display: block; text-align: center; background: #039be5; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
       @media (max-width: 600px) {
         body, #message { margin-top: 0; background: white; box-shadow: none; }
+      }
+
+      /* Style all font awesome icons */
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      /* Set a specific color for each brand */
+
+      /* Facebook */
+      .fa-linkedin {
+        background: #0e76a8;
+        color: white;
+      }
+
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
       }
     </style>
   </head>
@@ -34,7 +61,7 @@
     <div id="message">
       <h1>Jason Reeder</h1>
       <p>Software engineer, musician, linguist</p>
-      <a href="https://www.linkedin.com/in/jsonreeder/">linkedin.com/in/jsonreeder</a>
+      <a href="https://www.linkedin.com/in/jsonreeder/" class="fa fa-linkedin"></a>
     </div>
   </body>
 </html>
